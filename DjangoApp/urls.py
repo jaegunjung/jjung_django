@@ -18,10 +18,10 @@ urlpatterns = [
     # Examples:
      
     url(r'^$', home, name='home'),
-    url(r'^contact$', contact, name='contact'),
-    url(r'^about2', about2, name='about2'),
+    url(r'^figures', figures, name='figures'),
+    url(r'^contact', contact, name='contact'),
     url(r'^papers', papers, name='papers'),
-   url(r'^login/$', login, {
+    url(r'^login/$', login, {
             'template_name': 'app/login.html',
             'authentication_form': BootstrapAuthenticationForm,
             'extra_context':
@@ -31,7 +31,7 @@ urlpatterns = [
             }
         },
         name='login'),
-       url(r'^logout$', logout, {  'next_page': '/'  },        name='logout')
+    url(r'^logout$', logout, {  'next_page': '/'  },        name='logout')
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

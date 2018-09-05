@@ -57,7 +57,34 @@ def home(request):
         'app/index.html',
         context_instance = RequestContext(request,
         {
-            'title':'Home Page',
+            'title':'Jaegun Jung, Ph. D. - Home',
+            'year':datetime.now().year,
+        })
+    )
+
+def figures(request):
+    """Renders the about page."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/figures.html',
+        context_instance = RequestContext(request,
+        {
+            'title':'Sample plots',
+            'year':datetime.now().year,
+        })
+    )
+
+def papers(request):
+    """Renders the about page."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/papers.html',
+        context_instance = RequestContext(request,
+        {
+            'title':'Papers and Presentations',
+            'message':'As of 2/23/2015',
             'year':datetime.now().year,
         })
     )
@@ -72,34 +99,6 @@ def contact(request):
         {
             'title':'About Jaegun',
             'message':'He is ...',
-            'year':datetime.now().year,
-        })
-    )
-    
-def about2(request):
-    """Renders the about page."""
-    assert isinstance(request, HttpRequest)
-    return render(
-        request,
-        'app/about2.html',
-        context_instance = RequestContext(request,
-        {
-            'title':'About',
-            'message':'Jaegun Django page.',
-            'year':datetime.now().year,
-        })
-    )
-    
-def papers(request):
-    """Renders the about page."""
-    assert isinstance(request, HttpRequest)
-    return render(
-        request,
-        'app/papers.html',
-        context_instance = RequestContext(request,
-        {
-            'title':'Papers and Presentations',
-            'message':'As of 2/23/2015',
             'year':datetime.now().year,
         })
     )
