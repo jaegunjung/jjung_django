@@ -2,46 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f098bec-6c8c-4786-973c-21be77794803" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/Jaegun.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/O3map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/O3map_orig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/fancybox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/jquery.min.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/main.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/main_style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/scatter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/scatter_orig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/sites.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/slideshow-jq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/slideshow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/statmap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/statmap_orig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/whisker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/content2/whisker_orig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/figures.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/figures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/app/scripts/jquery.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/app/scripts/main.js.download" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/papers.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/papers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/Jaegun.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/O3map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/O3map_orig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/fancybox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/jquery.min.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/main.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/main_style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/scatter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/scatter_orig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/sites.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/slideshow-jq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/slideshow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/statmap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/statmap_orig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/whisker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/content2/whisker_orig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app/scripts/jquery.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app/scripts/main.js.download" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/app/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="85" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -114,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/DjangoApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
-              <caret line="114" column="25" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="25" />
+              <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -128,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="figures.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="figures.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/app/figures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="154" lean-forward="true" selection-end-line="154" />
+            <state relative-caret-position="445">
+              <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -175,6 +140,9 @@
       <find>&quot;url&quot;</find>
       <find>script</find>
       <find>app</find>
+      <find>papers.html</find>
+      <find>contact.html</find>
+      <find>download</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -195,8 +163,8 @@
         <option value="$PROJECT_DIR$/app/templates/app/contact.html" />
         <option value="$PROJECT_DIR$/app/templates/app/index.html" />
         <option value="$PROJECT_DIR$/app/templates/app/papers.html" />
-        <option value="$PROJECT_DIR$/app/templates/app/layout.html" />
         <option value="$PROJECT_DIR$/app/templates/app/figures.html" />
+        <option value="$PROJECT_DIR$/app/templates/app/layout.html" />
       </list>
     </option>
   </component>
@@ -236,6 +204,14 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jjung_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jjung_django" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jjung_django" type="b2602c69:ProjectViewProjectNode" />
@@ -638,26 +614,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/app/content2/slideshow-jq.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/app/content2/jquery.min.js.download">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoApp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="114" column="25" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="25" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/app/contact.html">
@@ -692,10 +654,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/figures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoApp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/app/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="85" selection-end-column="7" />
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -707,13 +690,6 @@
             <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/figures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="154" lean-forward="true" selection-end-line="154" />
         </state>
       </provider>
     </entry>
