@@ -4,6 +4,31 @@
 {% block extrahead %}
 <link rel="stylesheet" type="text/css" href="{% static 'app/content/slideshow.css' %}"/>
 <script src="{% static 'app/scripts/slideshow-jq.js' %}" type="text/javascript"></script>
+<script type="text/javascript">
+(function(jQuery){
+    function initFlyouts(){
+        initPublishedFlyoutMenus([
+            {"id":"638078592807400547","title":"Home","url":"index.html","target":""},
+            {"id":"379943252612927371","title":"Works done","url":"figures.html","target":""},
+            {"id":"951529784407562437","title":"PUBLICATIONS & PRESENTATIONS","url":"papers.html","target":""},
+            {"id":"165258903452855671","title":"Personal Links","url":"contact.html","target":""}
+            ],
+            '379943252612927371',
+            "<li class='wsite-nav-more'><a href='#'>more...<\/a><\/li>",
+            'active',
+            false
+        )
+    }
+    if (jQuery) {
+        if (jQuery.browser.msie && !window.flyoutMenusRefreshable) window.onload = initFlyouts;
+        else jQuery(initFlyouts);
+    }else{
+        if (Prototype.Browser.IE) window.onload = initFlyouts;
+        else document.observe('dom:loaded', initFlyouts);
+    }
+})(window._W && _W.jQuery)
+
+</script>
 {% endblock %}
 
 {% block content %}
@@ -149,6 +174,8 @@
     }
     jQuery ? jQuery(init) : document.observe('dom:loaded', init)
 })(window._W && _W.jQuery)
+
+
 
 </script>
 {% endblock %}
