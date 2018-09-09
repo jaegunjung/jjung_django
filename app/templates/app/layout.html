@@ -82,5 +82,20 @@
         </div>
     </div>
     {% block scripts %}{% endblock %}
+    <script>
+    if (document.cookie.match(/(^|;)\s*is_mobile=1/)) {
+        var windowHref = window.location.href || '';
+        if (windowHref.indexOf('?') > -1) {
+            windowHref += '&';
+        } else {
+            windowHref += '?';
+        }
+        document.write(
+            "&nbsp;&nbsp;&nbsp;&nbsp;" +
+            "<a class='wsite-view-link-mobile' href='" + windowHref + "view=mobile'>Mobile Site</a>"
+        );
+    }
+
+    </script>
 </body>
 </html>
