@@ -13,6 +13,9 @@ from django.http import Http404
 from django.template import Template, Context
 from django.template.loader_tags import BlockNode
 from django.utils._os import safe_join
+from django.views.generic import ListView, DetailView
+from .models import Post
+
 
 def get_page_or_404(name):
     """Return page content as a Django template or raise 404 error."""
@@ -102,3 +105,11 @@ def contact(request):
             'year':datetime.now().year,
         })
     )
+"""
+def post_list(request):
+    return render(request, 'app/post_list.html')
+"""
+
+post_list = ListView.as_view(model=Post)
+
+post_detail = DetailView.as_view(model=Post)
